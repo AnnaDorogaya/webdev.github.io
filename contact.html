@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact - Anna Dorogaya</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <!--<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>-->
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-database.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/firebase.js"></script>
+  <script src="js/browse_prompt.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+<div class="main-menu">
+
+  <div class="nav-list-holder">
+    <ul>
+      <li><a href="development.html">DEVELOPMENT</a></li>
+      <li><a href="design.html">DESIGN</a></li>
+      <li><a href="creativity.html">CREATIVITY</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li class="active"><a href="contact.html">CONTACT</a></li>
+    </ul>
+
+  </div>
+
+  <div class="menu-holder">
+    <div class="home-btn-holder">
+      <a href="home.html">ANNA DOROGAYA</a>
+    </div>
+
+    <div class="nav-slide-btn-holder">
+      <a class="nav-slide-btn"><span class="show">☰</span><span class="hide">x</span></a>
+    </div>
+  </div>
+
+</div>
+<div class="page-body contact">
+
+  <h3>Contact</h3>
+  <div class="thankyou">
+    <div class="wrapper">
+      <p><b>Thank you for getting in touch!</b></p>
+      <br/>
+      <p>I will get back to you shortly.</p>
+      <p>Have a great day!</p>
+    </div>
+  </div>
+  <form id="leads_form">
+    <div class="contact-form">
+      <table>
+        <tr>
+          <td style="font-size: 20px; text-align: center;">Contact me for any questions or inquiries.</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><span>Name:</span><span>*</span></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="name" id="lead_name" required></td>
+        </tr>
+        <tr>
+          <td><span>Email Address:</span><span>*</span></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="email" id="lead_email" required></td>
+        </tr>
+        <tr>
+          <td><span>Subject:</span><span>*</span></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="subject" id="lead_subject" required></td>
+        </tr>
+        <tr>
+          <td><span>Message:</span><span>*</span></td>
+        </tr>
+        <tr>
+          <td><textarea name="message" required id="lead_message"></textarea></td>
+        </tr>
+        <tr>
+          <td><input type="submit" class="submit" value="SUBMIT"></td>
+        </tr>
+      </table>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
